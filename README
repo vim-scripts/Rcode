@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3705
+
+Usage:
+Command 'Rcode' with argument vim, awk, perl, py, py3, ruby or lua will
+open a new buffer. Write your code in it and use command 'Run' (or key map
+<C-CR>) to run it again the buffer you were.
+
+Shortcut:
+in Python, 'v' is the 'vim' module, and 'b' is the current buffer,
+in Lua, 'b' is the current buffer,
+
+Settings:
+The global 'g:Rcode_after' indicates what to do after running your code.
+0 means to do noting, 1 means to close the code buffer and 2 will throw away
+your code besides closing the buffer. Default is 1.
